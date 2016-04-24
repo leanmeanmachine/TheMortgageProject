@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<link rel="stylesheet" type="text/css" href="default.css"/>
+	<script src="mortgageinput.js"></script>	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>New Web Project</title>
+	</head>
+	<body class="baseBodyStyle">
+		<div id="welcome">
+			<h1 style="vertical-align: ">Fund A Friend</h1>
+		</div>
+		<div id="goal">
+			<p style="margin:40px;vertical-align: left;"><b>What would you like to do?</b></p>
+			<form >
+				<div style="vertical-align: left;">
+					<input type="radio" name="mtgoptions" value="Help me fund my loan" id="fundMe" style="margin:20px;vertical-align: left;" checked=true/>
+					I want to fund my loan
+				</div>
+				<div style="vertical-align: left;">
+					<input type="radio" name="mtgoptions" value="I'd like to fund a loan" id="fundOther" style="margin:20px; vertical-align: left;">
+					I'd like to fund a loan
+					</input>
+				</div>
+				<div>
+					<input onclick="myFunction()" type="button" class="baseBodyStyle" id="submitButton" value="Next" style="margin:20px;vertical-align: left" />
+				</div>
+			</form>
+		</div>
+		
+	</body>
+</html>
