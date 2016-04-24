@@ -1,0 +1,32 @@
+.baseBodyStyle{
+	font-family:Verdana,sans-serif;
+	color:#4B0082;
+	background-color:white; 
+	font-size:2em;
+	text-align: center;
+	}
+	
+ #welcome
+ {
+ 	background-color:LightGray
+ }
+ 
+ h1{
+ 	font-family:Papyrus,monospace;
+ 	color:#2F4F4F;
+ 	font-size:3em; 
+ 	padding:10px
+ 	}
+ 
+ 	
+#submitButton {
+    width: 3em;  
+    height: 2em;
+    color:#2F4F4F
+}
+ 
+ #mtgoptions
+ {
+   vertical-align: middle;
+ }
+ 
